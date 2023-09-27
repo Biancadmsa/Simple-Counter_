@@ -16,16 +16,25 @@ function App() {
 }, [counter])
 
 
+function calculateSeconds(aCounter, value){
+  return Math.floor(aCounter /value)% 10;
+  
+
+}
+
+
+
+
   return (
     <>
       <SimpleCounter  
       
-        sixSeconds={counter}
-        fiveSeconds={counter}
-        fourSeconds={counter}
-        threeSeconds={counter}
-        twoSeconds={counter}
-        oneSeconds={counter}
+        sixSeconds={calculateSeconds(counter,100000)}
+        fiveSeconds={calculateSeconds(counter,10000)}
+        fourSeconds={calculateSeconds(counter,1000)}
+        threeSeconds={calculateSeconds(counter,100)}
+        twoSeconds={calculateSeconds(counter,10)}
+        oneSeconds={calculateSeconds(counter,1)}
       />
     </>
   )
