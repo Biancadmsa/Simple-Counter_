@@ -9,5 +9,8 @@ Currently, two official plugins are available:
 
 
 //Para ingresar al host:
-ejecutar en la terminal:
+
+Ejecutar en la terminal:
 -cd simple-counter
+-npm install
+-npm run dev//

@@ -1,18 +1,29 @@
 .counter-display{
     text-align: center;
     margin:100px 0;
+    background: black;
+    
 }
 
 
 .counter-display div{
     display:inline-block;
     font-size: 100px;
-    background: black;
+    background-color: rgb(50, 49, 49);
     color: white;
     width: 80px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    
+    
+    
 }
 
 .bi-clock{
     width: 65px;    
     height: 65px;
+    color: yellow;
 }
